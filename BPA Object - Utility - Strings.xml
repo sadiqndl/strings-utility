@@ -1,0 +1,3059 @@
+﻿<process name="Utility - Strings" version="6.3.0.6190" bpversion="6.0.0.434" narrative="Utility functions for manipulating text." type="object" runmode="Background" preferredid="1b13f5b8-01d1-441e-bd7f-54884a24d71f">
+  <appdef>
+    <element name="Application Root">
+      <id>b30f5d67-5c3c-49c9-8f9b-66d573097498</id>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+  </appdef>
+  <view>
+    <camerax>60</camerax>
+    <cameray>-35</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="9a74af4c-280a-4e30-bdbb-21295b6256ca" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>42</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="65117a41-f7ff-4f3f-abd1-7a3cbe18cfda" type="Normal" published="True">
+    <name>Remove Non-word Characters</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="d8fea7a8-24d9-41c8-9397-a3839e6ffdc1" type="Normal" published="True">
+    <name>Generate New GUID</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>-84</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="e70e8f13-02df-4b14-bb74-6fd5c4c95928" type="Normal" published="True">
+    <name>Delete Characters</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="6a710d42-8f41-45d0-9e74-1eddf74c0e75" type="Normal" published="True">
+    <name>Split Lines by Length</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="e6bab90c-ddfd-48c0-af38-804fe4f770ed" type="Normal" published="True">
+    <name>Split Lines</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>-6</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="a5871062-5ad2-4950-afbc-cb5b1b7a7f0b" type="Normal" published="True">
+    <name>Split Text</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>-56</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="a2c09338-7850-4daf-a545-8972d333b826" type="Normal" published="True">
+    <name>Join Text</name>
+    <view>
+      <camerax>65</camerax>
+      <cameray>75</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="a854bb6a-4399-4e51-8fc3-64f9e1d4f896" type="Normal" published="True">
+    <name>Join Lines</name>
+    <view>
+      <camerax>152</camerax>
+      <cameray>42</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="fcddf4bf-83af-4431-88db-cc2c88390cec" type="Normal" published="True">
+    <name>Get Newline Character</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="06780f7c-9622-4d84-9db3-bb56a2ff9f36" type="Normal" published="True">
+    <name>Extract Regex Values</name>
+    <view>
+      <camerax>70</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="a6b6398e-c21a-4c4e-9742-65ccad8370d9" type="Normal" published="True">
+    <name>Test Regex Match</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="5110b353-010b-4874-97bd-8b7621c24384" type="Normal" published="True">
+    <name>Format Number</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="ef8de52d-842b-45f0-8f1b-619bc97d4bbc" type="Normal" published="True">
+    <name>PadLeft</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="818441a5-ffec-4841-b0ea-00712caf63aa" type="Normal" published="True">
+    <name>Get XML Elements</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="e8af11f7-dfd4-4c86-9935-e83828b9e711" type="Normal" published="True">
+    <name>Get XML Attribute</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="f9add4d4-31de-4c0f-a109-0b51fa576a23" type="Normal" published="True">
+    <name>Get Collection as CSV</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="f5b26213-5463-4b2d-b10f-b188876b436f" type="Normal" published="True">
+    <name>Get CSV As Collection</name>
+    <view>
+      <camerax>248</camerax>
+      <cameray>-87</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="040cc29a-27ac-402c-8a66-328554dd4bc0" type="Normal" published="True">
+    <name>Escape Sendkeys String</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>5</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="527ca986-a03f-4231-880e-5b1c244b035e" type="Normal" published="True">
+    <name>Compare Font Text</name>
+    <view>
+      <camerax>150</camerax>
+      <cameray>139</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="0244396a-1d3d-4892-b6cb-461468f4c7e1" type="Normal" published="True">
+    <name>InStr</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>-2</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="9ab28c01-86eb-458d-b8d9-74f98926d266" type="Normal" published="True">
+    <name>InStrRev</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="d8c547cc-60d0-459b-876f-90bf696a5757" name="Start" type="Start">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>807e7d33-91e2-4241-a85e-ea0718fc487d</onsuccess>
+  </stage>
+  <stage stageid="807e7d33-91e2-4241-a85e-ea0718fc487d" name="End" type="End">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="1a8c9ebd-54e1-442f-a6c7-e87df3b59232" name="Stage1" type="ProcessInfo">
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <references>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+      <import>System.Data</import>
+      <import>System.IO</import>
+      <import>System.XML</import>
+      <import>System.Diagnostics</import>
+      <import>Microsoft.VisualBasic</import>
+      <import>System.Data</import>
+      <import>system.text.regularexpressions</import>
+      <import>System.Text</import>
+      <import>System.Collections.Generic</import>
+      <import>Microsoft.VisualBasic.FileIO</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[
+
+
+]]></globalcode>
+    <code><![CDATA[Public Function GetDataTable(ByVal ColumnNamesCSV As String, ByVal ColumnTypesCSV As String) As DataTable
+
+	Dim objTable As DataTable
+	Dim objColumn As DataColumn
+	Dim aColumnNames As String() = ColumnNamesCSV.Split(",")
+	Dim aColumnTypes As String() = ColumnTypesCSV.Split(",")
+
+	Try
+		objTable = New DataTable
+		For i As Integer = 0 To aColumnNames.Length - 1
+			objColumn = New DataColumn 
+			objColumn.DataType = System.Type.GetType(aColumnTypes(i).Trim)
+			objColumn.ColumnName = aColumnNames(i).Trim
+			objTable.Columns.Add(objColumn)
+		Next
+		
+	Catch e As Exception
+		objTable = nothing	
+	End Try
+
+	Return objTable
+
+End Function
+
+Private Function SplitStringInto( _
+ ByVal fldName As String, _
+ ByVal txt As String, _
+ ByVal ParamArray splitters() As String) As DataTable
+	Dim dt As New DataTable()
+	dt.Columns.Add(fldName, GetType(String))
+
+	For Each s As String In txt.Split(splitters, StringSplitOptions.None)
+		dt.Rows.Add(New Object() {s})
+	Next
+
+	Return dt
+End Function
+
+Public Shared Function ParseCsvToList(ByVal csv As String) As List(Of String())
+	Dim result = New List(Of String())()
+
+	Using sr As New StringReader(csv)
+		Using lineParser As New TextFieldParser(sr)
+			lineParser.TextFieldType = FieldType.Delimited
+			lineParser.SetDelimiters(",")
+			While Not lineParser.EndOfData
+
+				Dim fields As String() = lineParser.ReadFields()
+				result.Add(fields)
+			End While
+		End Using
+	End Using
+
+	Return result
+End Function
+
+
+''' -----------------------------------------------------------------------------
+''' <summary>
+''' Serialises a datatable to the supplied stream.
+''' </summary>
+''' <param name="Writer">The stream writr to which the datatable should
+''' be serialised. Eg this may correspond to a file stream.</param>
+''' <param name="Table">The datatable to be serialised.</param>
+''' <param name="IncludeHeaderRow">When true, the column headers will
+''' be wrtten out on the first row.</param>
+''' -----------------------------------------------------------------------------
+Public Shared Sub WriteDataTable(ByVal Writer As StringBuilder, ByVal Table As DataTable, ByVal IncludeHeaderRow As Boolean)
+	If IncludeHeaderRow Then
+		For i As Integer = 0 To Table.Columns.Count - 1
+			WriteItem(Writer, Table.Columns(i).ColumnName)
+			If i < Table.Columns.Count - 1 Then
+				Writer.Append(",")
+			Else
+				Writer.Append(vbCrLf)
+			End If
+		Next
+	End If
+
+	For Each Row As DataRow In Table.Rows
+		For i As Integer = 0 To Table.Columns.Count - 1
+			WriteItem(Writer, Row(i).ToString)
+			If i < Table.Columns.Count - 1 Then
+				Writer.Append(",")
+			Else
+				Writer.Append(vbCrLf)
+			End If
+		Next
+	Next
+End Sub
+
+
+
+''' -----------------------------------------------------------------------------
+''' <summary>
+''' Writes a csv data cell, escaping quotes and new lines where necessary.
+''' </summary>
+''' <param name="Writer">The writer to which the item should be written.</param>
+''' <param name="Value">The value to be written.</param>
+''' -----------------------------------------------------------------------------
+Private Shared Sub WriteItem(ByVal Writer As StringBuilder, ByVal Value As String)
+	If Value.IndexOfAny(("""," & vbCrLf).ToCharArray) > -1 Then
+		Writer.Append("""" & Value.Replace("""", """""") & """")
+	Else
+		Writer.Append(Value)
+	End If
+End Sub
+
+
+'Splits text into lines of approximately equal length, looking for
+'gaps between words as splitting points in order to avoid ugly
+'line splitting in the middle of words. Useful for mainframe memos
+'where a long message needs to be broken into lines of up to 80
+'characters.
+'
+Private Shared Function SplitTextByLengthEngine(Texttosplit As String, MaxLineLength As Integer) As List(of String)
+	Dim RetVal as New List(Of String)
+	MaxLineLength =  Math.Min(MaxLineLength, TexttoSplit.Length)
+
+	'We look for the last space within (MaxLineLength + 1) and then work backwards
+	'(always by at least one) to find the last non-space character. We can then
+	'chop at this point, assuming such exists. Otherwise we just chop at the
+	'requested line length accepting we will be splitting a word.
+	Dim LastIndex as integer = TexttoSplit.Substring(0, Math.Min(MaxLineLength + 1, TextToSplit.Length)).LastIndexOf(" ")
+
+	If TextToSplit.Length <= MaxLineLength OrElse LastIndex = -1 Then
+		RetVal.Add(TexttoSplit.Substring(0, MaxLineLength))
+		Dim RemainingText As String = TexttoSplit.SubString(MaxLineLength,TextToSplit.Length - MaxLineLength).Trim()
+		If RemainingText.Length > 0 Then RetVal.AddRange(SplitTextByLengthEngine(RemainingText, MaxLineLength))
+	Else
+		'Track backwards to find previous non-space character
+		Dim Index As Integer = LastIndex - 1
+		While Index >= 0 Andalso TextToSplit.SubString(Index, 1) = " "
+			Index -=1
+		End While
+		If Index >= 0 Then
+			RetVal.Add(TextToSplit.SubString(0, Index + 1))
+			Dim RemainingText As String = TexttoSplit.SubString(Index + 1, TextToSplit.Length - (Index + 1)).Trim()
+			If RemainingText.Length > 0 Then RetVal.AddRange(SplitTextByLengthEngine(RemainingText, MaxLineLength))
+		Else
+			'Must all be spaces. We assume this are to be ignored
+		End If
+	End If
+
+	Return RetVal
+End Function
+
+]]></code>
+  </stage>
+  <stage stageid="0bf7814a-647b-4bcb-b6a6-3d24dfd5b736" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>9a74af4c-280a-4e30-bdbb-21295b6256ca</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="b6df3b6c-090d-4126-a16c-8caa889b0646" name="Generate New GUID" type="SubSheetInfo">
+    <subsheetid>d8fea7a8-24d9-41c8-9397-a3839e6ffdc1</subsheetid>
+    <narrative>Generates a new globally unique identifier as text.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="0c56e2f8-68ce-48a3-97ad-81e1f076e9ce" name="new" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="be35a29d-2b71-42e1-9ca7-4534046d5dfc" name="Start" type="Start">
+    <subsheetid>d8fea7a8-24d9-41c8-9397-a3839e6ffdc1</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>bd80e756-d12c-4dc7-9d64-bbde733f60b7</onsuccess>
+  </stage>
+  <stage stageid="bd80e756-d12c-4dc7-9d64-bbde733f60b7" name="Get GUID" type="Code">
+    <subsheetid>d8fea7a8-24d9-41c8-9397-a3839e6ffdc1</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="id" stage="GUID" />
+    </outputs>
+    <onsuccess>4930704e-00c1-456a-8aad-02220fd81c99</onsuccess>
+    <code><![CDATA[dim g as new Guid
+id = guid.newguid.tostring]]></code>
+  </stage>
+  <stage stageid="695dad7d-b634-454c-9171-baf489698067" name="GUID" type="Data">
+    <subsheetid>d8fea7a8-24d9-41c8-9397-a3839e6ffdc1</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-60</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4930704e-00c1-456a-8aad-02220fd81c99" name="End1" type="End">
+    <subsheetid>d8fea7a8-24d9-41c8-9397-a3839e6ffdc1</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="GUID" narrative="The new guid" stage="GUID" />
+    </outputs>
+  </stage>
+  <stage stageid="2271a79e-27e5-4434-b5be-146e02946317" name="new" type="Note">
+    <subsheetid>9a74af4c-280a-4e30-bdbb-21295b6256ca</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="36451c72-b274-4817-a153-beb1e8a6e76a" name="Start" type="Start">
+    <subsheetid>9a74af4c-280a-4e30-bdbb-21295b6256ca</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>-120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>9a8c4505-8606-4a0c-b118-09a6b9932b3b</onsuccess>
+  </stage>
+  <stage stageid="9a8c4505-8606-4a0c-b118-09a6b9932b3b" name="End" type="End">
+    <subsheetid>9a74af4c-280a-4e30-bdbb-21295b6256ca</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="a130f3e8-fad5-413c-a068-75ac20600244" name="Remove Non-word Characters" type="SubSheetInfo">
+    <subsheetid>65117a41-f7ff-4f3f-abd1-7a3cbe18cfda</subsheetid>
+    <narrative>Trims non word characters from the begining and end of the text. Non word characters are any character that is NOT in the ranges a-z A-Z _ and 0-9</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="dd85470c-e10b-4f0b-b729-c006136517eb" name="Start" type="Start">
+    <subsheetid>65117a41-f7ff-4f3f-abd1-7a3cbe18cfda</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text" narrative="The text to remove the non word characters from" stage="Text" />
+    </inputs>
+    <onsuccess>a2426b0a-eab8-4571-a6d9-fa89c49559be</onsuccess>
+  </stage>
+  <stage stageid="3eae8050-c325-49f6-9e3f-ee12400ca5d4" name="End" type="End">
+    <subsheetid>65117a41-f7ff-4f3f-abd1-7a3cbe18cfda</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Trimmed Text" narrative="The text with the non word characters removed" stage="Trimmed Text" />
+    </outputs>
+  </stage>
+  <stage stageid="a2426b0a-eab8-4571-a6d9-fa89c49559be" name="Trim" type="Code">
+    <subsheetid>65117a41-f7ff-4f3f-abd1-7a3cbe18cfda</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text" expr="[Text]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Trimmed Text" stage="Trimmed Text" />
+    </outputs>
+    <onsuccess>3eae8050-c325-49f6-9e3f-ee12400ca5d4</onsuccess>
+    <code><![CDATA[
+dim r as new regex("^\W*|\W*$")
+Trimmed_Text = r.replace(text, "")
+]]></code>
+  </stage>
+  <stage stageid="1f3570bd-8411-4e92-8fd3-1dd418411570" name="Text" type="Data">
+    <subsheetid>65117a41-f7ff-4f3f-abd1-7a3cbe18cfda</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">    qwerqwer    </initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="0967c44a-1a53-49a7-8bb4-e1f6733a41b0" name="Trimmed Text" type="Data">
+    <subsheetid>65117a41-f7ff-4f3f-abd1-7a3cbe18cfda</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="00a08897-25f2-48e0-aa88-e40bb27b94e7" name="Split Lines" type="SubSheetInfo">
+    <subsheetid>e6bab90c-ddfd-48c0-af38-804fe4f770ed</subsheetid>
+    <narrative>Splits multiple line text into a collection text values with a single row per line.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="5f6c9d2f-247d-42a7-bc18-8b4283b21c80" name="Start" type="Start">
+    <subsheetid>e6bab90c-ddfd-48c0-af38-804fe4f770ed</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text to Split" narrative="The text to split" stage="Text to Split" />
+    </inputs>
+    <onsuccess>ee14a8f3-9fd3-4342-abcf-3cbe1d57431a</onsuccess>
+  </stage>
+  <stage stageid="370a75cf-d54f-438d-b7b1-0f931038d7a2" name="End" type="End">
+    <subsheetid>e6bab90c-ddfd-48c0-af38-804fe4f770ed</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="collection" name="Split Values" narrative="The resulting collection containing the split values" stage="Split Values" />
+    </outputs>
+  </stage>
+  <stage stageid="b655e5fa-2cb9-487a-b4e8-8faf44531e8d" name="Text to Split" type="Data">
+    <subsheetid>e6bab90c-ddfd-48c0-af38-804fe4f770ed</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="ee14a8f3-9fd3-4342-abcf-3cbe1d57431a" name="Split" type="Code">
+    <subsheetid>e6bab90c-ddfd-48c0-af38-804fe4f770ed</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>0</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text to Split" expr="[Text to Split]" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Split Values" stage="Split Values" />
+    </outputs>
+    <onsuccess>370a75cf-d54f-438d-b7b1-0f931038d7a2</onsuccess>
+    <code><![CDATA[Split_Values = SplitStringInto("Value", _
+ Text_to_Split, vbCrLf, vbLf, vbCr)]]></code>
+  </stage>
+  <stage stageid="5c6c7749-e4c1-45ef-9fb7-a7b7ca77214d" name="Split Values" type="Collection">
+    <subsheetid>e6bab90c-ddfd-48c0-af38-804fe4f770ed</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>120</displayx>
+    <displayy>90</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>60</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <field name="Value" type="text" namespace="" />
+    </collectioninfo>
+  </stage>
+  <stage stageid="99d3d4f8-598b-44be-9744-5142537aff99" name="Split Text" type="SubSheetInfo">
+    <subsheetid>a5871062-5ad2-4950-afbc-cb5b1b7a7f0b</subsheetid>
+    <narrative>Splits text with a given delimiter into a collection of text values.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="97069dc2-f2a1-4f61-a3f6-e26e88d1da58" name="Start" type="Start">
+    <subsheetid>a5871062-5ad2-4950-afbc-cb5b1b7a7f0b</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>120</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text to Split" narrative="The text to split" stage="Text to Split" />
+      <input type="text" name="Split Char" narrative="The split delimiter" stage="Split Char" />
+      <input type="text" name="Collection Field Name" narrative="The name of the field for the resulting collection" stage="Collection Field Name" />
+    </inputs>
+    <onsuccess>d1694d87-2fff-467b-9a07-5f5dd570bd41</onsuccess>
+  </stage>
+  <stage stageid="2972f0ee-292a-4bb0-bed5-c9a19f8945f6" name="End" type="End">
+    <subsheetid>a5871062-5ad2-4950-afbc-cb5b1b7a7f0b</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>120</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="collection" name="Split Values" narrative="The resulting collection containing the split values" stage="Split Values" />
+    </outputs>
+  </stage>
+  <stage stageid="33bff0c5-22b9-4ab3-ac0a-c352221a4f79" name="Text to Split" type="Data">
+    <subsheetid>a5871062-5ad2-4950-afbc-cb5b1b7a7f0b</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d1694d87-2fff-467b-9a07-5f5dd570bd41" name="Split Text" type="Code">
+    <subsheetid>a5871062-5ad2-4950-afbc-cb5b1b7a7f0b</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>120</displayx>
+    <displayy>0</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text to Split" expr="[Text to Split]" />
+      <input type="text" name="Split Char" expr="[Split Char]" />
+      <input type="text" name="Collection Field Name" expr="[Collection Field Name]" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Split Values" stage="Split Values" />
+    </outputs>
+    <onsuccess>2972f0ee-292a-4bb0-bed5-c9a19f8945f6</onsuccess>
+    <code><![CDATA[Split_Values = SplitStringInto( _
+ Collection_Field_Name, _
+ Text_to_Split, Split_Char)]]></code>
+  </stage>
+  <stage stageid="17ffca42-be51-4343-90e3-035d29366b7f" name="Split Values" type="Collection">
+    <subsheetid>a5871062-5ad2-4950-afbc-cb5b1b7a7f0b</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>225</displayx>
+    <displayy>90</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>60</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="05ba6aed-e91b-4383-9001-69b78a2e474d" name="Split Char" type="Data">
+    <subsheetid>a5871062-5ad2-4950-afbc-cb5b1b7a7f0b</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>255</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="20afce2f-59e1-4fc1-896c-ab71d2f871b2" name="Collection Field Name" type="Data">
+    <subsheetid>a5871062-5ad2-4950-afbc-cb5b1b7a7f0b</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>45</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="786d2d47-37c8-4324-8e43-8fc75f0eca95" name="Join Text" type="SubSheetInfo">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <narrative>Joins values from a collection into a single line of text using a given delimiter between values.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="ccd8aec8-19c3-4d48-a184-a8895ed1ebbf" name="Start" type="Start">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="collection" name="Values" narrative="The text values collection to join" stage="Values" />
+      <input type="text" name="Join Character" narrative="The delimeter between text values" stage="Join Character" />
+      <input type="flag" name="Trim Values" narrative="Set true to apply trimming to the values" stage="Trim Values" />
+    </inputs>
+    <onsuccess>b05ea94b-f0d1-4047-b854-04877801ef0b</onsuccess>
+  </stage>
+  <stage stageid="7dbff5b3-7cd4-406a-9650-265fb88988ef" name="End" type="End">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>285</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Joined Text" narrative="The resulting joined text" stage="Joined Text" />
+    </outputs>
+  </stage>
+  <stage stageid="13059fce-ee5a-4fbc-a76c-efc5db5d1240" name="Values" type="Collection">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <field name="Item Value" type="text" namespace="" />
+    </collectioninfo>
+  </stage>
+  <stage stageid="b0cf2931-5486-4779-b457-e8af03062df8" name="Join Character" type="Data">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="019a4343-9b5c-4400-8b76-5efbf2156032" name="Join Lines" type="SubSheetInfo">
+    <subsheetid>a854bb6a-4399-4e51-8fc3-64f9e1d4f896</subsheetid>
+    <narrative>Joins values from a collection into multiline text.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="6f376101-4dd4-43b4-85a0-19dd1090df02" name="Start" type="Start">
+    <subsheetid>a854bb6a-4399-4e51-8fc3-64f9e1d4f896</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="collection" name="Values" narrative="The text values collection to join" stage="Values" />
+      <input type="flag" name="Trim Lines" narrative="Set true to apply trimming to the lines" stage="Trim Lines" />
+    </inputs>
+    <onsuccess>816591dd-a42d-436b-9fd0-4ca095d78e29</onsuccess>
+  </stage>
+  <stage stageid="f2d9cbef-9cdb-4daa-bbb6-5d3dc0548c2e" name="Values" type="Collection">
+    <subsheetid>a854bb6a-4399-4e51-8fc3-64f9e1d4f896</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>-75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="579d0466-882d-47ce-a2c3-d4a7f25eaa8c" name="Joined Text" type="Data">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>285</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="724a0223-71bd-48d0-bcca-f4d554fcf91b" name="End" type="End">
+    <subsheetid>a854bb6a-4399-4e51-8fc3-64f9e1d4f896</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Joined Text" narrative="The resulting joined text" stage="Joined Text" />
+    </outputs>
+  </stage>
+  <stage stageid="8bcc24ca-f588-4c3c-b09b-fe08b425b5db" name="Joined Text" type="Data">
+    <subsheetid>a854bb6a-4399-4e51-8fc3-64f9e1d4f896</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>135</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="e3b84350-20a1-442e-bebb-0232a5b73299" name="Join Text" type="SubSheet">
+    <subsheetid>a854bb6a-4399-4e51-8fc3-64f9e1d4f896</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="collection" name="Values" expr="[Values]" />
+      <input type="text" name="Join Character" expr="[Join Character]" />
+      <input type="flag" name="Trim Values" expr="[Trim Lines]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Joined Text" stage="Joined Text" />
+    </outputs>
+    <onsuccess>724a0223-71bd-48d0-bcca-f4d554fcf91b</onsuccess>
+    <processid>a2c09338-7850-4daf-a545-8972d333b826</processid>
+  </stage>
+  <stage stageid="816591dd-a42d-436b-9fd0-4ca095d78e29" name="Get Carriage Return" type="Code">
+    <subsheetid>a854bb6a-4399-4e51-8fc3-64f9e1d4f896</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>0</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Join Character" stage="Join Character" />
+    </outputs>
+    <onsuccess>e3b84350-20a1-442e-bebb-0232a5b73299</onsuccess>
+    <code><![CDATA[Join_Character = vbcrlf]]></code>
+  </stage>
+  <stage stageid="9a8e3b40-f136-4397-b62b-4a69cd010c37" name="Join Character" type="Data">
+    <subsheetid>a854bb6a-4399-4e51-8fc3-64f9e1d4f896</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>105</displayx>
+    <displayy>0</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="13a0e17b-9b82-4dd6-8e3a-313890d8caf3" name="For Each Value" type="LoopStart">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>15</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>e4c0da52-0523-4109-b705-3fadd035597b</onsuccess>
+    <groupid>fffab271-8052-4aaf-9a1e-1402d77939ea</groupid>
+    <looptype>ForEach</looptype>
+    <loopdata>Values</loopdata>
+  </stage>
+  <stage stageid="98f2416b-599a-42d1-a76f-d41ea3e23572" name="Next Value" type="LoopEnd">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>195</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>7dbff5b3-7cd4-406a-9650-265fb88988ef</onsuccess>
+    <groupid>fffab271-8052-4aaf-9a1e-1402d77939ea</groupid>
+  </stage>
+  <stage stageid="b05ea94b-f0d1-4047-b854-04877801ef0b" name="Reset Output" type="Calculation">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>13a0e17b-9b82-4dd6-8e3a-313890d8caf3</onsuccess>
+    <calculation expression="&quot;&quot;" stage="Joined Text" />
+  </stage>
+  <stage stageid="49168356-8449-4cb3-9798-0796b15b77a3" name="Append Value" type="Calculation">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>150</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>98f2416b-599a-42d1-a76f-d41ea3e23572</onsuccess>
+    <calculation expression="[Joined Text] &amp; [Values.Item Value] &amp; [Join Character]" stage="Joined Text" />
+  </stage>
+  <stage stageid="54cf1a89-b26c-4916-ab45-8f1e80b9b86f" name="Trim Lines" type="Data">
+    <subsheetid>a854bb6a-4399-4e51-8fc3-64f9e1d4f896</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>-75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="6aa04814-e2fd-4630-b391-bfe892ddc8df" name="Trim Values" type="Data">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>210</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue>False</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="e4c0da52-0523-4109-b705-3fadd035597b" name="Trim?" type="Decision">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <decision expression="[Trim Values]" />
+    <ontrue>91ef5da4-e47e-4442-98ec-d46cbd8d8692</ontrue>
+    <onfalse>49168356-8449-4cb3-9798-0796b15b77a3</onfalse>
+  </stage>
+  <stage stageid="91ef5da4-e47e-4442-98ec-d46cbd8d8692" name="Do Trim" type="Calculation">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>105</displayx>
+    <displayy>75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>10ac89cc-d24c-4622-ad92-34ebe2365083</onsuccess>
+    <calculation expression="Trim([Values.Item Value])" stage="Values.Item Value" />
+  </stage>
+  <stage stageid="10ac89cc-d24c-4622-ad92-34ebe2365083" name="anchor1" type="Anchor">
+    <subsheetid>a2c09338-7850-4daf-a545-8972d333b826</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>105</displayx>
+    <displayy>150</displayy>
+    <displaywidth>10</displaywidth>
+    <displayheight>10</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>49168356-8449-4cb3-9798-0796b15b77a3</onsuccess>
+  </stage>
+  <stage stageid="b837f601-57e9-4136-8dee-db8ca9ebf15f" name="Format Number" type="SubSheetInfo">
+    <subsheetid>5110b353-010b-4874-97bd-8b7621c24384</subsheetid>
+    <narrative>Formats a number into comma-delimited triplets, as appropriate. Eg 123456.789 becomes 123,456.789</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="df1e573a-3e89-43a8-8e6a-61f1840b3869" name="Start" type="Start">
+    <subsheetid>5110b353-010b-4874-97bd-8b7621c24384</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="None" />
+    </preconditions>
+    <postconditions>
+      <condition narrative="The number will have been formatted." />
+    </postconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="Input Number" narrative="The number to format" stage="Input Number" />
+    </inputs>
+    <onsuccess>df4ce97f-4b9c-4087-a9bf-c6e35eba156b</onsuccess>
+  </stage>
+  <stage stageid="dd89bdff-2f14-4268-98f4-7ef3747a5233" name="End" type="End">
+    <subsheetid>5110b353-010b-4874-97bd-8b7621c24384</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Formatted Currency Numbers" narrative="The resulting formatted number" stage="Formatted Currency Value" />
+    </outputs>
+  </stage>
+  <stage stageid="b0f25370-1f87-4edd-b03a-0a3ac16537fb" name="Input Number" type="Data">
+    <subsheetid>5110b353-010b-4874-97bd-8b7621c24384</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>987654123456.789</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="df4ce97f-4b9c-4087-a9bf-c6e35eba156b" name="Format" type="Code">
+    <subsheetid>5110b353-010b-4874-97bd-8b7621c24384</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="Input" expr="[Input Number]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Output" stage="Formatted Currency Value" />
+    </outputs>
+    <onsuccess>dd89bdff-2f14-4268-98f4-7ef3747a5233</onsuccess>
+    <code><![CDATA[Output = Input.ToString("N")]]></code>
+  </stage>
+  <stage stageid="a6d6d631-89c5-4460-9771-6a15a0e1d7d5" name="Formatted Currency Value" type="Data">
+    <subsheetid>5110b353-010b-4874-97bd-8b7621c24384</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="b3013d63-9017-4dd9-bcf6-5e0d09ab372f" name="PadLeft" type="SubSheetInfo">
+    <subsheetid>ef8de52d-842b-45f0-8f1b-619bc97d4bbc</subsheetid>
+    <narrative>Ensures that a string (usually a number) is of fixed width, by padding with a special character on the left.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="af05cd75-42db-4c09-875d-3fedfc3ca0a2" name="Start" type="Start">
+    <subsheetid>ef8de52d-842b-45f0-8f1b-619bc97d4bbc</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="None" />
+    </preconditions>
+    <postconditions>
+      <condition narrative="The supplied text will have been padded to be at least the number of desired characters." />
+    </postconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Input String" narrative="The string to pad" stage="Input String" />
+      <input type="number" name="Target Width" narrative="The total number of characters required after padding" stage="Target Width" />
+      <input type="text" name="Padding Character" narrative="The character to pad with" stage="Padding Character" />
+    </inputs>
+    <onsuccess>6527cdd9-47d7-4784-bd96-e63afa4ec955</onsuccess>
+  </stage>
+  <stage stageid="f432b972-ae44-4485-943b-87848fd43487" name="End" type="End">
+    <subsheetid>ef8de52d-842b-45f0-8f1b-619bc97d4bbc</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>165</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Padded String" narrative="The resultant padded string" stage="Input String" />
+    </outputs>
+  </stage>
+  <stage stageid="888a814c-a03d-43f0-b6d6-30501b8b3250" name="Input String" type="Data">
+    <subsheetid>ef8de52d-842b-45f0-8f1b-619bc97d4bbc</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">123</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="ea8d90c7-c341-4859-919c-4ecc076162eb" name="Target Width" type="Data">
+    <subsheetid>ef8de52d-842b-45f0-8f1b-619bc97d4bbc</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>5</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="56c037f3-4ff0-4923-974c-e925c84e69c8" name="Padding Character" type="Data">
+    <subsheetid>ef8de52d-842b-45f0-8f1b-619bc97d4bbc</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>210</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="6527cdd9-47d7-4784-bd96-e63afa4ec955" name="Blank Padding Character?" type="Decision">
+    <subsheetid>ef8de52d-842b-45f0-8f1b-619bc97d4bbc</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <decision expression="Len([Padding Character]) = 0" />
+    <ontrue>26f66718-649a-4472-965d-0e1e125e7473</ontrue>
+    <onfalse>b6b30eec-0ee3-4316-a9af-d0a55d5ec137</onfalse>
+  </stage>
+  <stage stageid="26f66718-649a-4472-965d-0e1e125e7473" name="Use Space for Padding" type="Calculation">
+    <subsheetid>ef8de52d-842b-45f0-8f1b-619bc97d4bbc</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>135</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>6acfdd2b-9298-4841-9111-003fc203edd0</onsuccess>
+    <calculation expression="&quot; &quot;" stage="Padding Character" />
+  </stage>
+  <stage stageid="6acfdd2b-9298-4841-9111-003fc203edd0" name="anchor2" type="Anchor">
+    <subsheetid>ef8de52d-842b-45f0-8f1b-619bc97d4bbc</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>135</displayx>
+    <displayy>0</displayy>
+    <displaywidth>10</displaywidth>
+    <displayheight>10</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>b6b30eec-0ee3-4316-a9af-d0a55d5ec137</onsuccess>
+  </stage>
+  <stage stageid="b6b30eec-0ee3-4316-a9af-d0a55d5ec137" name="anchor3" type="Anchor">
+    <subsheetid>ef8de52d-842b-45f0-8f1b-619bc97d4bbc</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>0</displayy>
+    <displaywidth>10</displaywidth>
+    <displayheight>10</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>e13c9c2d-2cbe-4262-828c-6307a805d9c1</onsuccess>
+  </stage>
+  <stage stageid="e13c9c2d-2cbe-4262-828c-6307a805d9c1" name="Long Enough?" type="Decision">
+    <subsheetid>ef8de52d-842b-45f0-8f1b-619bc97d4bbc</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <decision expression="Len([Input String]) &gt;= [Target Width]" />
+    <ontrue>f432b972-ae44-4485-943b-87848fd43487</ontrue>
+    <onfalse>87af11ea-fa7e-45cf-b02a-fd6edeae0b85</onfalse>
+  </stage>
+  <stage stageid="87af11ea-fa7e-45cf-b02a-fd6edeae0b85" name="Insert Padding" type="Calculation">
+    <subsheetid>ef8de52d-842b-45f0-8f1b-619bc97d4bbc</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>135</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>6acfdd2b-9298-4841-9111-003fc203edd0</onsuccess>
+    <calculation expression="[Padding Character] &amp; [Input String]" stage="Input String" />
+  </stage>
+  <stage stageid="92edef27-4b78-40dd-97bd-e5a4f9169214" name="Get XML Elements" type="SubSheetInfo">
+    <subsheetid>818441a5-ffec-4841-b0ea-00712caf63aa</subsheetid>
+    <narrative>Gets a collection of xml elements with a given name from an xml document.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="04bec0f1-e8bb-4c30-a5d1-b7eee243e6f9" name="Start" type="Start">
+    <subsheetid>818441a5-ffec-4841-b0ea-00712caf63aa</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>135</displayx>
+    <displayy>-120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="XML" narrative="The xml to get elements from" stage="XML" />
+      <input type="text" name="Element Name" narrative="The name of the xml elements to get" stage="Element Name" />
+    </inputs>
+    <onsuccess>17f4a862-c7e3-44c3-a373-5b325fdaab8a</onsuccess>
+  </stage>
+  <stage stageid="e4b99f55-7171-46d6-992b-db797e99b1ed" name="End" type="End">
+    <subsheetid>818441a5-ffec-4841-b0ea-00712caf63aa</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>135</displayx>
+    <displayy>165</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="collection" name="Elements" narrative="The collection of xml elements that match the given name and for each element its outer xml" stage="Elements" />
+    </outputs>
+  </stage>
+  <stage stageid="31472749-70ee-477e-a042-fcf5a25a4099" name="XML" type="Data">
+    <subsheetid>818441a5-ffec-4841-b0ea-00712caf63aa</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-75</displayx>
+    <displayy>60</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8" ?&gt; &lt;PotentialGrading&gt;  &lt;ServiceIdentifier&gt;ABC&lt;/ServiceIdentifier&gt;  &lt;Episode ID="a97fe424-0d1f-4e7c-9e9a-9b3c9e03d594"&gt;   &lt;Patient DateOfBirth="18/02/1970" Gender="M" PartPostcode="YO51" EthnicOrigin="W" Country="United Kingdom"    Region="North Yorkshire" RegisteredBlind="0" RegisteredPartiallySighted="1" HealthProvider="PCT"    Insurance="Cheap as Chips Insurance"&gt;The patient ID goes here&lt;/Patient&gt;   &lt;Screening Date="2007/09/06" GradingCodeSet="NGC" ImageCount="4"&gt;    &lt;Item Code="Examiner Classification" Value="1" /&gt;    &lt;Item Code="Eye Screening Urgency" Value="2" /&gt;    &lt;Item Code="Opthalmologist Care" Value="2" /&gt;    &lt;Item Code="Technical Gradability Code" Value="1" /&gt;    &lt;Item Code="01 Visual Acuity Pinhole" Value="0" Laterality="right" /&gt;    &lt;Item Code="01 Visual Acuity Pinhole" Value="0" Laterality="left" /&gt;    &lt;Item Code="02 Visual Acuity Spectacles" Value="0" Laterality="right" /&gt;    &lt;Item Code="02 Visual Acuity Spectacles" Value="0" Laterality="left" /&gt;    &lt;Item Code="03 Visual Acuity Standard" Value="1" Laterality="right" /&gt;    &lt;Item Code="03 Visual Acuity Standard" Value="1" Laterality="left" /&gt;    &lt;Item Code="04 Visual Acuity" Value="" Laterality="right"&gt;Free text entry&lt;/Item&gt;    &lt;Item Code="04 Visual Acuity" Value="" Laterality="left"&gt;Free text entry&lt;/Item&gt;    &lt;Item Code="06 Dilation" Value="1" Laterality="right" /&gt;    &lt;Item Code="06 Dilation" Value="1" Laterality="left" /&gt;    &lt;Image Length="104644" CameraID="Camera1" CameraModelID="CameraModel1" CaptureDateTime="2007/09/06T01:54:59"     Eye="L"&gt;1121017(5)L.jpg&lt;/Image&gt;    &lt;Image Length="107565" CameraID="Camera2" CameraModelID="CameraModel2" CaptureDateTime="2007/09/06T01:54:59"     Eye="L"&gt;1121017(6)L.jpg&lt;/Image&gt;    &lt;Image Length="107441" CameraID="Camera3" CameraModelID="CameraModel3" CaptureDateTime="2007/09/06T01:54:59"     Eye="R"&gt;1121017(5)R.jpg&lt;/Image&gt;    &lt;Image Length="112472" CameraID="Camera4" CameraModelID="CameraModel4" CaptureDateTime="2007/09/06T01:54:59"     Eye="R"&gt;1121017(6)R.jpg&lt;/Image&gt;   &lt;/Screening&gt;   &lt;Notes&gt;Free text notes go here&lt;/Notes&gt;  &lt;/Episode&gt; &lt;/PotentialGrading&gt; </initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="68a0eeb2-9377-4b12-8f31-5ae52e7109e4" name="Element Name" type="Data">
+    <subsheetid>818441a5-ffec-4841-b0ea-00712caf63aa</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-75</displayx>
+    <displayy>90</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">Image</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="7b46fe82-142a-411b-bf80-b2f0047952da" name="Get Elements" type="Code">
+    <subsheetid>818441a5-ffec-4841-b0ea-00712caf63aa</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>135</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="XML" expr="[XML]" />
+      <input type="text" name="Element" expr="[Element Name]" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Elements" stage="Elements" />
+    </outputs>
+    <onsuccess>e4b99f55-7171-46d6-992b-db797e99b1ed</onsuccess>
+    <code><![CDATA[
+dim table as datatable = GetDataTable("XML", "System.String")
+dim row as datarow
+dim doc as new xmldocument
+dim list as xmlnodelist
+
+doc.loadxml(xml)
+list = doc.getelementsbytagname(element)
+
+for each n as xmlnode in list
+	row = table.newrow()
+	row("XML") = n.outerxml
+	table.rows.Add(row)
+next
+
+Elements = table
+]]></code>
+  </stage>
+  <stage stageid="d693d2fb-a196-4ddc-b2e9-b41cbe618fc3" name="Elements" type="Collection">
+    <subsheetid>818441a5-ffec-4841-b0ea-00712caf63aa</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-75</displayx>
+    <displayy>165</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="17f4a862-c7e3-44c3-a373-5b325fdaab8a" name="Blank XML?" type="Decision">
+    <subsheetid>818441a5-ffec-4841-b0ea-00712caf63aa</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>135</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <decision expression="Len(Trim([XML])) = 0" />
+    <ontrue>6eb4f747-35c0-4e57-acbf-be93ac0a1bbb</ontrue>
+    <onfalse>7b46fe82-142a-411b-bf80-b2f0047952da</onfalse>
+  </stage>
+  <stage stageid="6eb4f747-35c0-4e57-acbf-be93ac0a1bbb" name="anchor1" type="Anchor">
+    <subsheetid>818441a5-ffec-4841-b0ea-00712caf63aa</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>240</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>10</displaywidth>
+    <displayheight>10</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>a460ec9b-8afb-4b37-8ae0-7545448b025d</onsuccess>
+  </stage>
+  <stage stageid="a460ec9b-8afb-4b37-8ae0-7545448b025d" name="anchor2" type="Anchor">
+    <subsheetid>818441a5-ffec-4841-b0ea-00712caf63aa</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>240</displayx>
+    <displayy>165</displayy>
+    <displaywidth>10</displaywidth>
+    <displayheight>10</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>e4b99f55-7171-46d6-992b-db797e99b1ed</onsuccess>
+  </stage>
+  <stage stageid="97b59270-9eda-4994-9fce-24d8b5d856a4" name="Get XML Attribute" type="SubSheetInfo">
+    <subsheetid>e8af11f7-dfd4-4c86-9935-e83828b9e711</subsheetid>
+    <narrative>Gets the value of an xml attribute with a given name from an xml document fragment.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="802dd6e8-6b25-42b9-9af6-931049d4062a" name="Start" type="Start">
+    <subsheetid>e8af11f7-dfd4-4c86-9935-e83828b9e711</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>120</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="XML" narrative="The xml document to get attributes from" stage="XML" />
+      <input type="text" name="Attribute Name" narrative="The name of the xml attribute to get" stage="Attribute Name" />
+    </inputs>
+    <onsuccess>76737597-b716-4a52-8cbc-dfe9b5ad1f0c</onsuccess>
+  </stage>
+  <stage stageid="bc64fcfd-4386-47ec-b799-19c5454d8374" name="End" type="End">
+    <subsheetid>e8af11f7-dfd4-4c86-9935-e83828b9e711</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>120</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Value" narrative="The text value of the requested attribute" stage="Attribute Value" />
+    </outputs>
+  </stage>
+  <stage stageid="18f2ae57-8ed9-457b-8763-82dedb14a5e0" name="XML" type="Data">
+    <subsheetid>e8af11f7-dfd4-4c86-9935-e83828b9e711</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-90</displayx>
+    <displayy>75</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">&lt;iGrading&gt;&lt;Response transactionID="de3dc0b1-6b22-4b67-a13a-d42fff6188b9" status="Success" method="SubmitPotentialGradingWithImages" description="" /&gt;&lt;/iGrading&gt;</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="1941e7f9-164d-4aa2-b06e-cb3a579a30e4" name="Attribute Name" type="Data">
+    <subsheetid>e8af11f7-dfd4-4c86-9935-e83828b9e711</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-90</displayx>
+    <displayy>105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">method</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="c9ec2a39-8f5d-42cc-856f-33bdb2c16477" name="Attribute Value" type="Data">
+    <subsheetid>e8af11f7-dfd4-4c86-9935-e83828b9e711</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-90</displayx>
+    <displayy>135</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="76737597-b716-4a52-8cbc-dfe9b5ad1f0c" name="Get Attribute" type="Code">
+    <subsheetid>e8af11f7-dfd4-4c86-9935-e83828b9e711</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>120</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="XML" expr="[XML]" />
+      <input type="text" name="Attribute" expr="[Attribute Name]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Value" stage="Attribute Value" />
+    </outputs>
+    <onsuccess>bc64fcfd-4386-47ec-b799-19c5454d8374</onsuccess>
+    <code><![CDATA[
+dim i as integer = XML.indexof(Attribute)
+
+if i > 0 then
+	i += Attribute.length + 2
+	value = XML.substring(i)
+	value = value.substring(0, value.indexof(""""))
+else
+	value = ""
+end if]]></code>
+  </stage>
+  <stage stageid="ebd306f5-f0a3-46cf-8a04-9bde5bf5cc3d" name="Get Collection as CSV" type="SubSheetInfo">
+    <subsheetid>f9add4d4-31de-4c0f-a109-0b51fa576a23</subsheetid>
+    <narrative>Turns a collection into a list of comma seperated values.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="1e2d9aba-666e-457b-adb8-c5991d17ba24" name="Start" type="Start">
+    <subsheetid>f9add4d4-31de-4c0f-a109-0b51fa576a23</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="collection" name="Input Collection" narrative="The collection to be converted to CSV" stage="Input Collection" />
+    </inputs>
+    <onsuccess>e5946197-de00-4008-9491-d0ab28eaf2ee</onsuccess>
+  </stage>
+  <stage stageid="a619ae29-9260-47d3-b15c-f47342810991" name="End" type="End">
+    <subsheetid>f9add4d4-31de-4c0f-a109-0b51fa576a23</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Collection CSV" narrative="The CSV representation of the Input Collection" stage="Output CSV" />
+    </outputs>
+  </stage>
+  <stage stageid="18eea322-16ab-4d30-a555-5ac6638b468f" name="Input Collection" type="Collection">
+    <subsheetid>f9add4d4-31de-4c0f-a109-0b51fa576a23</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>120</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>60</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="e5946197-de00-4008-9491-d0ab28eaf2ee" name="Serialise to CSV" type="Code">
+    <subsheetid>f9add4d4-31de-4c0f-a109-0b51fa576a23</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>0</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="collection" name="Input Collection" expr="[Input Collection]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Output CSV" stage="Output CSV" />
+    </outputs>
+    <onsuccess>a619ae29-9260-47d3-b15c-f47342810991</onsuccess>
+    <code><![CDATA[
+Dim SB As New StringBuilder
+WriteDataTable(SB, Input_Collection, True)
+Output_CSV = SB.ToString()]]></code>
+  </stage>
+  <stage stageid="9e68e0db-adac-4a32-bd92-c7d5bfe31468" name="Output CSV" type="Data">
+    <subsheetid>f9add4d4-31de-4c0f-a109-0b51fa576a23</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="47ea7760-3b58-442b-8271-c90d3c08f114" name="Split Lines by Length" type="SubSheetInfo">
+    <subsheetid>6a710d42-8f41-45d0-9e74-1eddf74c0e75</subsheetid>
+    <narrative>Splits text into lines of a given length using word boundries to find the split point.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="51996cc8-b76e-4de1-899a-66c678dbe1f3" name="Start" type="Start">
+    <subsheetid>6a710d42-8f41-45d0-9e74-1eddf74c0e75</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>-135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text to Split" narrative="The single line of text that needs to be split" stage="Text to Split" />
+      <input type="number" name="Maximum Line Length" narrative="The maximum length of the line" stage="Maximum Line Length" />
+      <input type="flag" name="Split Strictly by Length" narrative="Set true if the line should be split at character boundries instead of words" stage="Split Strictly by Length" />
+    </inputs>
+    <onsuccess>0fd3f2cd-7fff-49c7-b4d9-4cfc3476793a</onsuccess>
+  </stage>
+  <stage stageid="52e75580-936a-4647-a154-e984ab8d199a" name="End" type="End">
+    <subsheetid>6a710d42-8f41-45d0-9e74-1eddf74c0e75</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="number" name="Line Count" stage="Line Count" />
+      <output type="collection" name="Split Lines" stage="Split Lines" />
+    </outputs>
+  </stage>
+  <stage stageid="0fd3f2cd-7fff-49c7-b4d9-4cfc3476793a" name="Split Lines By Length" type="Code">
+    <subsheetid>6a710d42-8f41-45d0-9e74-1eddf74c0e75</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>60</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text to Split" expr="[Text to Split]" />
+      <input type="number" name="Maximum Line Length" expr="[Maximum Line Length]" />
+      <input type="flag" name="Strict Split" expr="[Split Strictly by Length]" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Split Lines" stage="Split Lines" />
+      <output type="number" name="Line Count" stage="Line Count" />
+    </outputs>
+    <onsuccess>52e75580-936a-4647-a154-e984ab8d199a</onsuccess>
+    <code><![CDATA[Dim Values as List(Of String) = Nothing
+If Strict_Split Then
+      Values = New List(Of String)
+      While Text_to_Split.Length > 0
+            Dim NewLine As String = Text_to_Split.SubString(0, Math.Min(Maximum_Line_Length, Text_to_Split.Length))
+            NewLine = NewLine.Trim()
+            Values.Add(NewLine)
+
+            If Text_to_Split.Length > NewLine.Length Then
+                  Text_to_Split = Text_to_Split.SubString(NewLine.Length, Text_to_Split.Length - NewLine.Length)
+            Else
+                  Text_to_Split = ""
+            End If
+            Text_to_Split = Text_to_Split.Trim()
+      End While
+Else
+      Values = SplitTextByLengthEngine(Text_to_Split, Maximum_Line_length)
+End If
+
+Split_Lines = New DataTable()
+Split_Lines.Columns.Add("Line Text", GetType(String))
+For Each s as String in Values
+      Split_Lines.Rows.Add(New Object() {s})
+Next
+
+Line_Count = Values.Count]]></code>
+  </stage>
+  <stage stageid="c20b3e81-de90-46c1-a347-f094034ff28c" name="Text to Split" type="Data">
+    <subsheetid>6a710d42-8f41-45d0-9e74-1eddf74c0e75</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>75</displayx>
+    <displayy>-135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">aaaa bbbb cccc dddd eeee ffff gggg hhhh iiii jjjj kkkk llll mmmm nnnn oooo pppp</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="e329d1c6-7a17-4af0-aa33-d6fb517adb68" name="Split Lines" type="Collection">
+    <subsheetid>6a710d42-8f41-45d0-9e74-1eddf74c0e75</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>135</displayx>
+    <displayy>45</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <field name="Line Text" type="text" namespace="" />
+    </collectioninfo>
+  </stage>
+  <stage stageid="50f47d4a-73f4-46d2-93e1-24a2470d2df9" name="Maximum Line Length" type="Data">
+    <subsheetid>6a710d42-8f41-45d0-9e74-1eddf74c0e75</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>-135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>6</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d1f11813-b465-4a95-9194-630fb1424d37" name="Line Count" type="Data">
+    <subsheetid>6a710d42-8f41-45d0-9e74-1eddf74c0e75</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="89c59225-5fb8-45a8-9fb8-a102420ddbc5" name="Split Strictly by Length" type="Data">
+    <subsheetid>6a710d42-8f41-45d0-9e74-1eddf74c0e75</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>225</displayx>
+    <displayy>-135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue>False</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="8d911bb3-c87f-4748-b226-9d2faaf45c95" name="Get CSV As Collection" type="SubSheetInfo">
+    <subsheetid>f5b26213-5463-4b2d-b10f-b188876b436f</subsheetid>
+    <narrative>Turns a list of comma seperated values into a collection.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="90168461-d901-4bf7-886d-42176fe2fe34" name="Start" type="Start">
+    <subsheetid>f5b26213-5463-4b2d-b10f-b188876b436f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="CSV" narrative="The CSV to be converted into a collection" stage="CSV" />
+      <input type="flag" name="First Row Is Header" narrative="Indicates whether the first row of the CSV file should be treated as headers" stage="First Row Is Header" />
+      <input type="collection" name="Schema" narrative="Optional. A collection of column names. If left blank the column names will be taken from the first row. " stage="Schema" />
+    </inputs>
+    <onsuccess>33e5caa5-61ec-4ef6-9ae8-01466a277896</onsuccess>
+  </stage>
+  <stage stageid="f06f6c62-eada-49b0-bf89-fdbb436e13fe" name="End" type="End">
+    <subsheetid>f5b26213-5463-4b2d-b10f-b188876b436f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="collection" name="Output Collection" narrative="The collection converted from CSV" stage="Output Collection" />
+    </outputs>
+  </stage>
+  <stage stageid="d5778bd8-695a-4c5e-8e8a-3764ae34f57f" name="CSV" type="Data">
+    <subsheetid>f5b26213-5463-4b2d-b10f-b188876b436f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>225</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="c5b7df42-71fd-41f6-af35-62ed6f68caa0" name="Output Collection" type="Collection">
+    <subsheetid>f5b26213-5463-4b2d-b10f-b188876b436f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>45</displayx>
+    <displayy>15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>60</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="617f911a-8f73-4ce5-b428-f1441214c602" name="First Row Is Header" type="Data">
+    <subsheetid>f5b26213-5463-4b2d-b10f-b188876b436f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>285</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue>False</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="ff699bd2-cd5a-4996-927a-e579b22b0313" name="Schema" type="Collection">
+    <subsheetid>f5b26213-5463-4b2d-b10f-b188876b436f</subsheetid>
+    <narrative>The columns must appear in the same order as they appear in the CSV file</narrative>
+    <displayx>390</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>60</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <field name="Column Name" type="text" namespace="" />
+    </collectioninfo>
+  </stage>
+  <stage stageid="e1587123-3967-4743-b475-5499f8c41803" name="Get Newline Character" type="SubSheetInfo">
+    <subsheetid>fcddf4bf-83af-4431-88db-cc2c88390cec</subsheetid>
+    <narrative>Gets the text representing the two newline characters used under windows (Carriage return followed by Line feed)</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="b09f1e76-fb7c-4ef1-9a47-db4a1377d056" name="Start" type="Start">
+    <subsheetid>fcddf4bf-83af-4431-88db-cc2c88390cec</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>af411d25-0e83-4e28-b4f3-30f43beb9b88</onsuccess>
+  </stage>
+  <stage stageid="bee4d44f-957c-415f-be9c-614e97d6f255" name="End" type="End">
+    <subsheetid>fcddf4bf-83af-4431-88db-cc2c88390cec</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Newline Character" narrative="The new line text" stage="Newline Character" />
+    </outputs>
+  </stage>
+  <stage stageid="af411d25-0e83-4e28-b4f3-30f43beb9b88" name="Get Newline Character" type="Code">
+    <subsheetid>fcddf4bf-83af-4431-88db-cc2c88390cec</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>0</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>60</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Newline Character" stage="Newline Character" />
+    </outputs>
+    <onsuccess>bee4d44f-957c-415f-be9c-614e97d6f255</onsuccess>
+    <code><![CDATA[Newline_Character = VbCrLf]]></code>
+  </stage>
+  <stage stageid="dde302f4-2b62-45c0-a8f3-190c52116470" name="Newline Character" type="Data">
+    <subsheetid>fcddf4bf-83af-4431-88db-cc2c88390cec</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="dd7d11e6-2bc7-40ed-ab47-1180482d82ed" name="Delete Characters" type="SubSheetInfo">
+    <subsheetid>e70e8f13-02df-4b14-bb74-6fd5c4c95928</subsheetid>
+    <narrative>Removes the given characters from the text.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="6e15c3f7-07db-4e3d-a24d-84be7e09b06e" name="Start" type="Start">
+    <subsheetid>e70e8f13-02df-4b14-bb74-6fd5c4c95928</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text Sample" narrative="The piece of text to be operated on" stage="Text Sample" />
+      <input type="text" name="Characters to Delete" narrative="A string of characters to be deleted from the Text Sample" stage="Characters to Delete" />
+    </inputs>
+    <onsuccess>89bfbefd-b0a3-472a-b72c-75105d0a7895</onsuccess>
+  </stage>
+  <stage stageid="c7719606-01b9-4626-9a24-4d9cf42d1e75" name="End" type="End">
+    <subsheetid>e70e8f13-02df-4b14-bb74-6fd5c4c95928</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Amended Sample" narrative="The amended sample, with the characters deleted" stage="Amended Sample" />
+    </outputs>
+  </stage>
+  <stage stageid="78d405b1-aa60-46a6-af38-fb4bba55e752" name="Text Sample" type="Data">
+    <subsheetid>e70e8f13-02df-4b14-bb74-6fd5c4c95928</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="66318e10-ff11-43c1-9b3c-6ce27546458f" name="Characters to Delete" type="Data">
+    <subsheetid>e70e8f13-02df-4b14-bb74-6fd5c4c95928</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="89bfbefd-b0a3-472a-b72c-75105d0a7895" name="Replace" type="Code">
+    <subsheetid>e70e8f13-02df-4b14-bb74-6fd5c4c95928</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text Sample" expr="[Text Sample]" />
+      <input type="text" name="Characters to Delete" expr="[Characters to Delete]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Amended Sample" stage="Amended Sample" />
+    </outputs>
+    <onsuccess>c7719606-01b9-4626-9a24-4d9cf42d1e75</onsuccess>
+    <code><![CDATA[For Each C as Char in Characters_To_Delete.ToCharArray()
+	Text_Sample = Text_Sample.Replace(C, "")
+Next
+
+Amended_Sample = Text_Sample]]></code>
+  </stage>
+  <stage stageid="930e7d0f-68a5-4d40-a291-e2dcfa4918c6" name="Amended Sample" type="Data">
+    <subsheetid>e70e8f13-02df-4b14-bb74-6fd5c4c95928</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="6a0bb945-2946-4e17-8e4a-b8d7eb5e1060" name="Escape Sendkeys String" type="SubSheetInfo">
+    <subsheetid>040cc29a-27ac-402c-8a66-328554dd4bc0</subsheetid>
+    <narrative>Escapes characters to be sent via the sendkeys method, to ensure that all characters are interpreted literally. If left unescaped, some characters such as % carry a special meaning rather than their literal value.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="5bb1d666-6ef6-4371-a0f4-111fdf5ee69e" name="Start" type="Start">
+    <subsheetid>040cc29a-27ac-402c-8a66-328554dd4bc0</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Sendkeys Text" narrative="The text to be escaped" stage="Sendkeys Text" />
+    </inputs>
+    <onsuccess>5ea70bdd-732c-4a8e-b5cb-a747f97e1090</onsuccess>
+  </stage>
+  <stage stageid="7bfda30d-2f75-46ec-b5e2-88a965528b49" name="End" type="End">
+    <subsheetid>040cc29a-27ac-402c-8a66-328554dd4bc0</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Escaped Sendkeys Text" narrative="The escaped sendkeys text, which can be sent via the sendkeys method without fear of misinterpretation" stage="Escaped Sendkeys Text" />
+    </outputs>
+  </stage>
+  <stage stageid="5ea70bdd-732c-4a8e-b5cb-a747f97e1090" name="Escape Text" type="Code">
+    <subsheetid>040cc29a-27ac-402c-8a66-328554dd4bc0</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="SendKeys Text" expr="[Sendkeys Text]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Escaped Sendkeys Text" stage="Escaped Sendkeys Text" />
+    </outputs>
+    <onsuccess>7bfda30d-2f75-46ec-b5e2-88a965528b49</onsuccess>
+    <code><![CDATA[Escaped_Sendkeys_Text = Regex.Replace(SendKeys_Text, "[\[\]{}+^%~()]", "{$0}")]]></code>
+  </stage>
+  <stage stageid="c0e80092-2acc-4552-b6ab-9e3fa5abb07a" name="Escaped Sendkeys Text" type="Data">
+    <subsheetid>040cc29a-27ac-402c-8a66-328554dd4bc0</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>90</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="172f06e8-629e-434a-9bee-084a177606eb" name="Sendkeys Text" type="Data">
+    <subsheetid>040cc29a-27ac-402c-8a66-328554dd4bc0</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4e2f3e3d-72e1-4483-b79e-49e9f1387d8a" name="Compare Font Text" type="SubSheetInfo">
+    <subsheetid>527ca986-a03f-4231-880e-5b1c244b035e</subsheetid>
+    <narrative>Compares two items of text read using Font Recognition for equality, where "equality" means that the two text samples match following the removal of conflicting font characters.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="1a092a3a-7389-4bd7-8d31-a3ed761ff97c" name="Start" type="Start">
+    <subsheetid>527ca986-a03f-4231-880e-5b1c244b035e</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="None" />
+    </preconditions>
+    <postconditions>
+      <condition narrative="None" />
+    </postconditions>
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Sample 1" narrative="The first item to be compared" stage="Sample 1" />
+      <input type="text" name="Sample 2" narrative="The second item to be compared" stage="Sample 2" />
+      <input type="collection" name="Conflicting Characters" narrative="A collection of conflicting font characters, as read from a read stage for the font of interest" stage="Conflicting Characters" />
+    </inputs>
+    <onsuccess>2aac81fd-1231-450b-94e5-3a5928ddb08b</onsuccess>
+  </stage>
+  <stage stageid="f07d147e-0807-4996-8746-e6b232b63283" name="End" type="End">
+    <subsheetid>527ca986-a03f-4231-880e-5b1c244b035e</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>330</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="flag" name="Samples Equal" narrative="Indicates whether the samples are equal, once conflicting characters are removed" stage="Samples Equal" />
+      <output type="text" name="Amended Sample 1" narrative="The first sample, with conflicting characters removed" stage="Sample 1" />
+      <output type="text" name="Amended Sample 2" narrative="The second sample, with conflicting characters removed" stage="Sample 2" />
+    </outputs>
+  </stage>
+  <stage stageid="fbb964d4-b0d6-4729-b88d-04d1cbfd0cb5" name="Sample 1" type="Data">
+    <subsheetid>527ca986-a03f-4231-880e-5b1c244b035e</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>225</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4187bcbb-ee93-4b01-b7b6-4e4944c8967a" name="Sample 2" type="Data">
+    <subsheetid>527ca986-a03f-4231-880e-5b1c244b035e</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>285</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="16d61c29-acde-49f1-a0dc-5b93885cb724" name="Conflicting Characters" type="Collection">
+    <subsheetid>527ca986-a03f-4231-880e-5b1c244b035e</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>60</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="2aac81fd-1231-450b-94e5-3a5928ddb08b" name="For Each Character Group" type="LoopStart">
+    <subsheetid>527ca986-a03f-4231-880e-5b1c244b035e</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>45</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>dde2966f-3ac6-4a0a-9613-7f8c83db2d3a</onsuccess>
+    <groupid>d5a546ca-79ce-4ba9-917c-4165b543a787</groupid>
+    <looptype>ForEach</looptype>
+    <loopdata>Conflicting Characters</loopdata>
+  </stage>
+  <stage stageid="5f4d2cf9-a6a3-47c1-beed-8c8912b3f81e" name="Next Character Group" type="LoopEnd">
+    <subsheetid>527ca986-a03f-4231-880e-5b1c244b035e</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>180</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>cd3e8b56-7767-489d-96de-6c9d0740de02</onsuccess>
+    <groupid>d5a546ca-79ce-4ba9-917c-4165b543a787</groupid>
+  </stage>
+  <stage stageid="cd3e8b56-7767-489d-96de-6c9d0740de02" name="Determine Equality" type="Calculation">
+    <subsheetid>527ca986-a03f-4231-880e-5b1c244b035e</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>240</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>f07d147e-0807-4996-8746-e6b232b63283</onsuccess>
+    <calculation expression="[Sample 1] = [Sample 2]" stage="Samples Equal" />
+  </stage>
+  <stage stageid="7c680a7d-326b-4d7b-b298-02df94778092" name="Samples Equal" type="Data">
+    <subsheetid>527ca986-a03f-4231-880e-5b1c244b035e</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>225</displayx>
+    <displayy>330</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="a589a76f-6d45-4f76-a3d8-a7220c5409ed" name="Extract Regex Values" type="SubSheetInfo">
+    <subsheetid>06780f7c-9622-4d84-9db3-bb56a2ff9f36</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="e85db034-efea-43db-9f60-c5d086ce0f5a" name="Start" type="Start">
+    <subsheetid>06780f7c-9622-4d84-9db3-bb56a2ff9f36</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>45</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Regex Pattern" narrative="The regex pattern to apply" stage="Regex Pattern" />
+      <input type="text" name="Target String" narrative="The target string to which apply the pattern and extract values" stage="Target String" />
+      <input type="collection" name="Named Values" narrative="A collection of named values to extract from the target string" stage="Named Values" />
+    </inputs>
+    <onsuccess>526b7aa5-2df6-4a52-a8d5-fef9e3c9e776</onsuccess>
+  </stage>
+  <stage stageid="78d491bd-ce28-422a-8d1f-334ba9248f4e" name="End" type="End">
+    <subsheetid>06780f7c-9622-4d84-9db3-bb56a2ff9f36</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>45</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="collection" name="Named Values" narrative="Results of the named values extracted from the regex" stage="Named Values" />
+    </outputs>
+  </stage>
+  <stage stageid="e0d2e8e4-b2f1-4cab-a39c-7252cd042e68" name="Regex Pattern" type="Data">
+    <subsheetid>06780f7c-9622-4d84-9db3-bb56a2ff9f36</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>240</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>300</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">(?&lt;Lower&gt;\d+)\s*(-|to)\s*(?&lt;Upper&gt;\d+)</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d1344ba9-2a6f-4a88-bc72-0188e2ead8b7" name="Target String" type="Data">
+    <subsheetid>06780f7c-9622-4d84-9db3-bb56a2ff9f36</subsheetid>
+    <narrative>100-200
+56 to 99
+400 - 600</narrative>
+    <displayx>240</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>300</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">100-200</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="70580e44-41d3-40b3-9b12-3460963b2f5f" name="Named Values" type="Collection">
+    <subsheetid>06780f7c-9622-4d84-9db3-bb56a2ff9f36</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>240</displayx>
+    <displayy>30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <field name="Name" type="text" namespace="" />
+      <field name="Value" type="text" namespace="" />
+    </collectioninfo>
+    <initialvalue>
+      <row>
+        <field name="Name" type="text" value="Lower" />
+        <field name="Value" type="text" value="" />
+      </row>
+      <row>
+        <field name="Name" type="text" value="Upper" />
+        <field name="Value" type="text" value="" />
+      </row>
+    </initialvalue>
+  </stage>
+  <stage stageid="526b7aa5-2df6-4a52-a8d5-fef9e3c9e776" name="Extract Values" type="Code">
+    <subsheetid>06780f7c-9622-4d84-9db3-bb56a2ff9f36</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>45</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Regex Pattern" expr="[Regex Pattern]" />
+      <input type="text" name="Target String" expr="[Target String]" />
+      <input type="collection" name="Named Values" expr="[Named Values]" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Named Values Out" stage="Named Values" />
+    </outputs>
+    <onsuccess>78d491bd-ce28-422a-8d1f-334ba9248f4e</onsuccess>
+    <code><![CDATA[For Each Row As DataRow in Named_Values.Rows
+	Row("Value") = ""
+Next
+
+
+Dim R as New Regex(Regex_Pattern, RegexOptions.SingleLine)
+Dim M as Match = R.Match(Target_String)
+If M IsNot Nothing AndAlso M.Success Then
+	If M.Groups IsNot Nothing AndAlso M.Groups.Count > 0 Then
+		For Each Row As DataRow in Named_Values.Rows
+			Dim GroupName As String = CStr(Row("Name"))
+			Dim G As Group = M.Groups(GroupName)
+			If G.Success Then
+				Row("Value") = G.Value
+			End If
+		Next
+	End If
+End If
+
+Named_Values_Out = Named_Values]]></code>
+  </stage>
+  <stage stageid="33e5caa5-61ec-4ef6-9ae8-01466a277896" name="ParseCSV" type="Code">
+    <subsheetid>f5b26213-5463-4b2d-b10f-b188876b436f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="CSV" expr="[CSV]" />
+      <input type="collection" name="Schema" expr="[Schema]" />
+      <input type="flag" name="FirstRowIsHeader" expr="[First Row Is Header]" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="outputCollection" stage="Output Collection" />
+    </outputs>
+    <onsuccess>f06f6c62-eada-49b0-bf89-fdbb436e13fe</onsuccess>
+    <code><![CDATA[Const SchemaColumnName As String = "Column Name"
+Const DefaultColumnName As String = "Column "
+Const nonSchemaHeadingIndex As Integer = 0
+
+Dim emptySchema As Boolean = Schema Is Nothing OrElse Schema.Rows.Count = 0
+
+Dim csvValuesList = ParseCsvToList(CSV)
+
+' If we want to parse with no schema and want the first row be used as headings 
+' we need to know what the headings will be.
+Dim nonSchemaHeadings = csvValuesList(nonSchemaHeadingIndex)
+
+' Arrange the column headings into the table first.
+If emptySchema Then
+	For Each columnHeader As String In nonSchemaHeadings
+		Dim colName As String = If(FirstRowIsHeader, columnHeader,
+											 DefaultColumnName & outputCollection.Columns.Count)
+		outputCollection.Columns.Add(colName, GetType(String))
+	Next
+Else
+	For Each columnHeader As DataRow In Schema.Rows
+		Dim colName As String = columnHeader(SchemaColumnName).ToString
+		outputCollection.Columns.Add(colName, GetType(String))
+	Next
+End If
+
+' If the first row is being used for headings then skip those headings / values in csvValuesList.
+Dim startListIndex As Integer = If(FirstRowIsHeader, nonSchemaHeadingIndex + 1, nonSchemaHeadingIndex)
+
+' Insert the csv values into the table row by row.
+For i As Integer = startListIndex To csvValuesList.Count - 1
+	Dim currentRow As Datarow = outputCollection.NewRow
+	outputCollection.Rows.Add(currentRow)
+
+	Dim csvArray = csvValuesList(i)
+	For columnIndex As Integer = 0 To csvArray.Length - 1
+		currentRow.Item(columnIndex) = csvArray(columnIndex)
+	Next
+Next]]></code>
+  </stage>
+  <stage stageid="feb4e385-2919-4066-86ad-53cb6226c867" name="InStr" type="SubSheetInfo">
+    <subsheetid>0244396a-1d3d-4892-b6cb-461468f4c7e1</subsheetid>
+    <narrative>Tests to see if one peice of text contains another peice of sub text.</narrative>
+    <displayx>-150</displayx>
+    <displayy>-180</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="353f092b-3d6f-4fda-bdab-cd5798047c44" name="End" type="End">
+    <subsheetid>0244396a-1d3d-4892-b6cb-461468f4c7e1</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="number" name="Position" narrative="The index of the sub text within the text or -1 if not found" stage="Position" />
+    </outputs>
+  </stage>
+  <stage stageid="f594335d-8723-4704-a8ae-e8dbcfe492c7" name="Text" type="Data">
+    <subsheetid>0244396a-1d3d-4892-b6cb-461468f4c7e1</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-180</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="1a43e2c2-c8c1-4dfd-b58f-2775e2ea7d0e" name="Search String" type="Data">
+    <subsheetid>0244396a-1d3d-4892-b6cb-461468f4c7e1</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-180</displayx>
+    <displayy>0</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="c9bbb24e-51f9-489f-9944-30d9612c396a" name="Start Byte" type="Data">
+    <subsheetid>0244396a-1d3d-4892-b6cb-461468f4c7e1</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-180</displayx>
+    <displayy>30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="65e660c1-4379-4323-9e01-6cd7ae38f150" name="Note1" type="Note">
+    <subsheetid>0244396a-1d3d-4892-b6cb-461468f4c7e1</subsheetid>
+    <loginhibit />
+    <narrative>Inputs</narrative>
+    <displayx>-180</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="424c6e04-b000-4dce-8eb7-ba00b0fea671" name="InStr" type="Code">
+    <subsheetid>0244396a-1d3d-4892-b6cb-461468f4c7e1</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="InText" expr="[Text]" />
+      <input type="text" name="Search String" expr="[Search String]" />
+      <input type="number" name="Start Byte" expr="[Start Byte]" />
+      <input type="number" name="Compare Method" expr="[Compare Method]" />
+    </inputs>
+    <outputs>
+      <output type="number" name="Position" stage="Position" />
+    </outputs>
+    <onsuccess>353f092b-3d6f-4fda-bdab-cd5798047c44</onsuccess>
+    <code><![CDATA[  Position = Microsoft.VisualBasic.InStr(Start_Byte,InText, Search_String, 1)]]></code>
+  </stage>
+  <stage stageid="7f283fb0-e9fa-4e24-82d1-aae53fd5afe1" name="Position" type="Data">
+    <subsheetid>0244396a-1d3d-4892-b6cb-461468f4c7e1</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-165</displayx>
+    <displayy>165</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d00b9153-969d-4db4-b737-b1ac835c7b2a" name="Compare Method" type="Data">
+    <subsheetid>0244396a-1d3d-4892-b6cb-461468f4c7e1</subsheetid>
+    <loginhibit />
+    <narrative>1 = text, 0 = binary</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>1</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4bbb2261-2d01-49a5-88e8-c8d37745fd60" name="InStrRev" type="SubSheetInfo">
+    <subsheetid>9ab28c01-86eb-458d-b8d9-74f98926d266</subsheetid>
+    <narrative>Tests to see if one peice of text contains another peice of sub text but matches in reverse.</narrative>
+    <displayx>-150</displayx>
+    <displayy>-135</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="3ddcb7e5-570f-430d-8374-ed9066da51c0" name="Start" type="Start">
+    <subsheetid>9ab28c01-86eb-458d-b8d9-74f98926d266</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text" narrative="Text to search in" stage="Text" />
+      <input type="text" name="Search String" narrative="The text to search for" stage="Search String" />
+      <input type="number" name="Start Byte" narrative="Where in the string to search from" stage="Start Byte" />
+      <input type="number" name="Compare Method" narrative="1=text, 0=binary" stage="Compare Method" />
+    </inputs>
+    <onsuccess>4991333f-9a42-4dc3-b73b-a8bc97edab6d</onsuccess>
+  </stage>
+  <stage stageid="251f9278-c41e-44a0-835b-bfc48910933d" name="Text" type="Data">
+    <subsheetid>9ab28c01-86eb-458d-b8d9-74f98926d266</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-180</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="393bbd43-ae95-438d-b358-f51cc69d5e5c" name="Search String" type="Data">
+    <subsheetid>9ab28c01-86eb-458d-b8d9-74f98926d266</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-180</displayx>
+    <displayy>0</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="a898a11a-c6ca-4a70-abcd-42f38192de24" name="Start Byte" type="Data">
+    <subsheetid>9ab28c01-86eb-458d-b8d9-74f98926d266</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-180</displayx>
+    <displayy>30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>-1</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="73737012-9282-4e33-9d87-c4718367216d" name="Note1" type="Note">
+    <subsheetid>9ab28c01-86eb-458d-b8d9-74f98926d266</subsheetid>
+    <loginhibit />
+    <narrative>Inputs</narrative>
+    <displayx>-180</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="4991333f-9a42-4dc3-b73b-a8bc97edab6d" name="InStrRev" type="Code">
+    <subsheetid>9ab28c01-86eb-458d-b8d9-74f98926d266</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="InText" expr="[Text]" />
+      <input type="text" name="Search String" expr="[Search String]" />
+      <input type="number" name="Start Byte" expr="[Start Byte]" />
+      <input type="number" name="Compare Method" expr="[Compare Method]" />
+    </inputs>
+    <outputs>
+      <output type="number" name="Position" stage="Position" />
+    </outputs>
+    <onsuccess>ba288c3f-ff29-4df2-af77-a2823f65f60c</onsuccess>
+    <code><![CDATA[  Position = Microsoft.VisualBasic.InStrRev(InText, Search_String, Start_Byte, 1)]]></code>
+  </stage>
+  <stage stageid="63d5b70d-b54a-4451-b957-9ea177292994" name="Position" type="Data">
+    <subsheetid>9ab28c01-86eb-458d-b8d9-74f98926d266</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-165</displayx>
+    <displayy>150</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="57a39985-6197-4f21-bdff-e46bd897faa6" name="Compare Method" type="Data">
+    <subsheetid>9ab28c01-86eb-458d-b8d9-74f98926d266</subsheetid>
+    <loginhibit />
+    <narrative>1 = text, 0 = binary</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>1</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d0bb7b29-fbb3-43cd-ab69-7f76a9c657e5" name="Note1" type="Note">
+    <subsheetid>9ab28c01-86eb-458d-b8d9-74f98926d266</subsheetid>
+    <loginhibit />
+    <narrative>Outputs</narrative>
+    <displayx>-165</displayx>
+    <displayy>120</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="b27c7a93-8e3b-4ed8-b105-e08cd2c96fdf" name="Note1" type="Note">
+    <subsheetid>0244396a-1d3d-4892-b6cb-461468f4c7e1</subsheetid>
+    <loginhibit />
+    <narrative>Outputs</narrative>
+    <displayx>-165</displayx>
+    <displayy>135</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="bc4f3574-a096-4b9f-b836-0bc100bf2a18" name="Start" type="Start">
+    <subsheetid>0244396a-1d3d-4892-b6cb-461468f4c7e1</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text" narrative="Text to search in" stage="Text" />
+      <input type="text" name="Search String" narrative="The text to search for" stage="Search String" />
+      <input type="number" name="Start Byte" narrative="Where in the string to search from" stage="Start Byte" />
+      <input type="number" name="Compare Method" narrative="1=text, 0=binary" stage="Compare Method" />
+    </inputs>
+    <onsuccess>424c6e04-b000-4dce-8eb7-ba00b0fea671</onsuccess>
+  </stage>
+  <stage stageid="ba288c3f-ff29-4df2-af77-a2823f65f60c" name="End" type="End">
+    <subsheetid>9ab28c01-86eb-458d-b8d9-74f98926d266</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="number" name="Position" narrative="The index of the sub text within the text from the end or -1 if not found" stage="Position" />
+    </outputs>
+  </stage>
+  <stage stageid="73739a66-400b-488a-bd7a-63a2f0d2a4ef" name="Test Regex Match" type="SubSheetInfo">
+    <subsheetid>a6b6398e-c21a-4c4e-9742-65ccad8370d9</subsheetid>
+    <narrative>Check if a given Text value matches a regular expression.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="568b67f8-4216-4af4-bea8-1c83bbff7e16" name="Start" type="Start">
+    <subsheetid>a6b6398e-c21a-4c4e-9742-65ccad8370d9</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-30</displayx>
+    <displayy>-120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Regex Pattern" narrative="The regex pattern to apply" stage="Regex Pattern" />
+      <input type="text" name="Target String" narrative="The target string to which apply the pattern and extract values" stage="Target String" />
+    </inputs>
+    <onsuccess>2ad0c111-6108-4ca5-945b-22aab4b6bb27</onsuccess>
+  </stage>
+  <stage stageid="46282093-d3a9-4e38-b030-95b332ec5371" name="End" type="End">
+    <subsheetid>a6b6398e-c21a-4c4e-9742-65ccad8370d9</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-30</displayx>
+    <displayy>75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="flag" name="Matched?" narrative="Whether or not the regex match" stage="Regex Match" />
+    </outputs>
+  </stage>
+  <stage stageid="32d3ef8a-d0b2-4093-afc5-98bad356c881" name="Regex Pattern" type="Data">
+    <subsheetid>a6b6398e-c21a-4c4e-9742-65ccad8370d9</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>165</displayx>
+    <displayy>-120</displayy>
+    <displaywidth>300</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="5747c96e-0ce3-4e78-b446-17b9cef5b655" name="Target String" type="Data">
+    <subsheetid>a6b6398e-c21a-4c4e-9742-65ccad8370d9</subsheetid>
+    <narrative>100-200
+56 to 99
+400 - 600</narrative>
+    <displayx>165</displayx>
+    <displayy>-75</displayy>
+    <displaywidth>300</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="2ad0c111-6108-4ca5-945b-22aab4b6bb27" name="Test Regex Match1" type="Code">
+    <subsheetid>a6b6398e-c21a-4c4e-9742-65ccad8370d9</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-30</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Regex Pattern" expr="[Regex Pattern]" />
+      <input type="text" name="Target String" expr="[Target String]" />
+    </inputs>
+    <outputs>
+      <output type="flag" name="Regex Match" stage="Regex Match" />
+    </outputs>
+    <onsuccess>46282093-d3a9-4e38-b030-95b332ec5371</onsuccess>
+    <code><![CDATA[
+Dim R as New Regex(Regex_Pattern, RegexOptions.SingleLine)
+Dim M as Match = R.Match(Target_String)
+Regex_Match =  M IsNot Nothing AndAlso M.Success]]></code>
+  </stage>
+  <stage stageid="24d6e567-f121-4d8a-a4ee-1402f8f2832d" name="Regex Match" type="Data">
+    <subsheetid>a6b6398e-c21a-4c4e-9742-65ccad8370d9</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>45</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="dde2966f-3ac6-4a0a-9613-7f8c83db2d3a" name="Delete from Sample 1" type="SubSheet">
+    <subsheetid>527ca986-a03f-4231-880e-5b1c244b035e</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text Sample" narrative="The piece of text to be operated on" expr="[Sample 1]" />
+      <input type="text" name="Characters to Delete" narrative="A string of characters to be deleted from the Text Sample" expr="[Conflicting Characters.Character Group]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Amended Sample" narrative="The amended sample, with the characters deleted" stage="Sample 1" />
+    </outputs>
+    <onsuccess>50c19466-f7e4-4066-a4c1-d18f65876de0</onsuccess>
+    <processid>e70e8f13-02df-4b14-bb74-6fd5c4c95928</processid>
+  </stage>
+  <stage stageid="50c19466-f7e4-4066-a4c1-d18f65876de0" name="Delete from Sample 2" type="SubSheet">
+    <subsheetid>527ca986-a03f-4231-880e-5b1c244b035e</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Text Sample" narrative="The piece of text to be operated on" expr="[Sample 2]" />
+      <input type="text" name="Characters to Delete" narrative="A string of characters to be deleted from the Text Sample" expr="[Conflicting Characters.Character Group]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Amended Sample" narrative="The amended sample, with the characters deleted" stage="Sample 2" />
+    </outputs>
+    <onsuccess>5f4d2cf9-a6a3-47c1-beed-8c8912b3f81e</onsuccess>
+    <processid>e70e8f13-02df-4b14-bb74-6fd5c4c95928</processid>
+  </stage>
+</process>
